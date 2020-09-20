@@ -20,8 +20,8 @@ client.on("guildMemberRemove", (member) => {
 client.on('message', (message) => {
   if(message.author.bot) return;
 
-  if(message.content == 'ping') {
-    return message.reply('pong');
+  if(message.content == '안녕 윤성아') {
+    return message.reply('안녕하세요 형님.');
   }
 
   if(message.content == 'embed') {
