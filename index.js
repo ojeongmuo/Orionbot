@@ -27,11 +27,10 @@ client.on("guildMemberRemove", (member) => {
 });
 
 client.on('message', (message) => {
-  if(message.author.bot) return;
-
-  if(message.content == '안녕 윤성아') {
-    return message.reply('안녕');
+  if(message.content === 'ping') {
+    message.reply('pong');
   }
+});
 
 
 
@@ -91,7 +90,6 @@ client.on('message', (message) => {
       return message.reply('채널에서 실행해주세요.');
     }
   }
-});
 
 function checkPermission(message) {
   if(!message.member.hasPermission("MANAGE_MESSAGES")) {
