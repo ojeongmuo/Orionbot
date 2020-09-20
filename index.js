@@ -1,13 +1,11 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const token = process.env.token;
-const welcomeChannelName = "안녕하세요";
-const byeChannelName = "안녕히가세요";
-const welcomeChannelComment = "어서오세요.";
-const byeChannelComment = "안녕히가세요.";
+
 
 client.on('ready', () => {
   console.log('켰다.');
+client.user.setPresence({ game: { name: '윤성이 작전' }, status: 'online' })
 });
 
 client.on("guildMemberAdd", (member) => {
@@ -31,7 +29,7 @@ client.on("guildMemberRemove", (member) => {
 client.on('message', (message) => {
   if(message.author.bot) return;
 
-  if(message.content == 'ping') {
+  if(message.content == '안녕') {
     return message.reply('pong');
   }
 
