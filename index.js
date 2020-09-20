@@ -25,13 +25,6 @@ client.on('message', (message) => {
   }
 
 
-client.on("guildMemberRemove", (member) => {
-  const guild = member.guild;
-  const deleteUser = member.user;
-  const byeChannel = guild.channels.find(channel => channel.name == byeChannelName);
-
-  byeChannel.send(`<@${deleteUser.id}> ${byeChannelComment}\n`);
-});
 
 client.on('message', (message) => {
   if(message.author.bot) return;
