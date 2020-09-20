@@ -39,6 +39,10 @@ if(message.content == '그래') {
     return message.reply('필요 하신거 있으신가요 윤성 엽사 치시면 재미있는 사진을 보내드립니다');
   }
 
+if(message.content == '오') {
+    return message.reply('ㅎㅎ ');
+  }
+
   if(message.content == 'embed') {
     let img = 'https://cdn.discordapp.com/icons/419671192857739264/6dccc22df4cb0051b50548627f36c09b.webp?size=256';
     let embed = new Discord.RichEmbed()
