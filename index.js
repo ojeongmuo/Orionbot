@@ -1,25 +1,13 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const token = process.argv.length == 2 ? process.env.token : "";
-const welcomeChannelName = "안녕하세요";
-const byeChannelName = "안녕히가세요";
-const welcomeChannelComment = "어서오세요.";
-const byeChannelComment = "안녕히가세요.";
 
 client.on('ready', () => {
   console.log('켰다.');
   client.user.setPresence({ game: { name: '아릉하세요 양우진  ' }, status: 'online' })
 });
 
-client.on("guildMemberAdd", (member) => {
-  const guild = member.guild;
-  const newUser = member.user;
-  const welcomeChannel = guild.channels.find(channel => channel.name == welcomeChannelName);
 
-  welcomeChannel.send(`<@${newUser.id}> ${welcomeChannelComment}\n`);
-
-  member.addRole(guild.roles.find(role => role.name == "게스트"));
-});
 
 client.on("guildMemberRemove", (member) => {
   const guild = member.guild;
