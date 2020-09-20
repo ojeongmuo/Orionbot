@@ -50,6 +50,26 @@ if(message.content == '느금마') {
     return message.reply('넵 저 ');
   }
 
+if(message.content == '현상 수배') {
+    let img = 'https://cdn.discordapp.com/attachments/757259241643048980/757270368749879437/z.PNG';
+    let embed = new Discord.RichEmbed()
+      .setTitle('이름 조두순 아닌 홍윤성')
+      .setURL('http://www.naver.com')
+      .setAuthor('복수다', img, 'http://www.naver.com')
+      .setThumbnail(img)
+      .addBlankField()
+      .addField('이름 조두순 아닌 홍윤성', '나이1살')
+      .addField('태어난곳', '북한 시골')      
+      .addField('엄마', 'ㅇㅇ', true)
+.addField('수배 금액', '윤성이 똥 ', true)
+      .addField('Inline field title', 'Some value here1\nSome value here2\nSome value here3\n')
+      .addBlankField()
+      .setTimestamp()
+      .setFooter('내가 만듬', img)
+
+    message.channel.send(embed)
+  }
+
    else if(message.content == '현상 수배') {
     let helpImg = 'https://cdn.discordapp.com/attachments/757259241643048980/757270368749879437/z.PNG';
     let commandList = [
