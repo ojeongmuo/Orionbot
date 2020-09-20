@@ -33,12 +33,7 @@ client.on('message', (message) => {
     return message.reply('안녕');
   }
 
-client.on('message', (message) => {
-  if(message.author.bot) return;
 
-  if(message.content == '니 얼굴') {
-    return message.reply('못생겼어 ');
-  }
 
   if(message.content == 'embed') {
     let img = 'https://cdn.discordapp.com/icons/419671192857739264/6dccc22df4cb0051b50548627f36c09b.webp?size=256';
