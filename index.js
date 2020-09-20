@@ -28,6 +28,19 @@ client.on("guildMemberRemove", (member) => {
   byeChannel.send(`<@${deleteUser.id}> ${byeChannelComment}\n`);
 });
 
+
+if(message.content == '홍윤성 정보') {
+    let img = 'https://cdn.discordapp.com/attachments/757259241643048980/757270368749879437/z.PNG';
+    let embed = new Discord.RichEmbed()
+      .setColor('#ff0000')      
+      .addField('**```홍윤성 정보```**', '**```fix\n정보 불러옵니다```**', true)
+.addField('못생김', '권력')
+  .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/757259241643048980/757270368749879437/z.PNG')
+      
+    message.channel.send(embed)
+  }
+
 client.on('message', (message) => {
   if(message.author.bot) return;
 
