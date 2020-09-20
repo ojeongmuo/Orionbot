@@ -24,6 +24,22 @@ client.on('message', (message) => {
     return message.reply('안녕하세요 형님.');
   }
 
+
+client.on("guildMemberRemove", (member) => {
+  const guild = member.guild;
+  const deleteUser = member.user;
+  const byeChannel = guild.channels.find(channel => channel.name == byeChannelName);
+
+  byeChannel.send(`<@${deleteUser.id}> ${byeChannelComment}\n`);
+});
+
+client.on('message', (message) => {
+  if(message.author.bot) return;
+
+  if(message.content == '그래') {
+    return message.reply('필요하신거 있으신가요 ?');
+  }
+
   if(message.content == 'embed') {
     let img = 'https://cdn.discordapp.com/icons/419671192857739264/6dccc22df4cb0051b50548627f36c09b.webp?size=256';
     let embed = new Discord.RichEmbed()
