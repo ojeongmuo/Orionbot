@@ -43,6 +43,10 @@ if(message.content == '오') {
     return message.reply('ㅎㅎ ');
   }
 
+if(message.content == '느금마') {
+    return message.reply('넵 저 ');
+  }
+
   if(message.content == 'embed') {
     let img = 'https://cdn.discordapp.com/icons/419671192857739264/6dccc22df4cb0051b50548627f36c09b.webp?size=256';
     let embed = new Discord.RichEmbed()
