@@ -29,8 +29,15 @@ client.on("guildMemberRemove", (member) => {
 client.on('message', (message) => {
   if(message.author.bot) return;
 
-  if(message.content == '안녕') {
-    return message.reply('pong');
+  if(message.content == '안녕 윤성아') {
+    return message.reply('안녕');
+  }
+
+client.on('message', (message) => {
+  if(message.author.bot) return;
+
+  if(message.content == '니 얼굴') {
+    return message.reply('못생겼어 ');
   }
 
   if(message.content == 'embed') {
