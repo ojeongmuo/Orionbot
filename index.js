@@ -62,7 +62,7 @@ if(message.content == '현상 수배 금액') {
       .addField('태어난곳', '북한 시골')      
       .addField('엄마', 'ㅇㅇ', true)
 .addField('수배 금액', '윤성이 똥 ', true)
-      .addField('Inline field title', 'Some value here1\nSome value here2\nSome value here3\n')
+     
       
       .setFooter('내가 만듬', img)
 
