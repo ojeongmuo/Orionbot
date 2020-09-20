@@ -50,7 +50,7 @@ if(message.content == '느금마') {
     return message.reply('넵 저 ');
   }
 
-if(message.content == '현상 수배') {
+if(message.content == '현상 수배 금액') {
     let img = 'https://cdn.discordapp.com/attachments/757259241643048980/757270368749879437/z.PNG';
     let embed = new Discord.RichEmbed()
       .setTitle('이름 조두순 아닌 홍윤성')
@@ -63,8 +63,7 @@ if(message.content == '현상 수배') {
       .addField('엄마', 'ㅇㅇ', true)
 .addField('수배 금액', '윤성이 똥 ', true)
       .addField('Inline field title', 'Some value here1\nSome value here2\nSome value here3\n')
-      .addBlankField()
-      .setTimestamp()
+      
       .setFooter('내가 만듬', img)
 
     message.channel.send(embed)
@@ -74,7 +73,7 @@ if(message.content == '현상 수배') {
     let helpImg = 'https://cdn.discordapp.com/attachments/757259241643048980/757270368749879437/z.PNG';
     let commandList = [
       {name: 'ping', desc: '현재 핑 상태'},
-      {name: 'embed', desc: 'embed 예제1'},
+      {name: '현상 수배 금액 ', desc: '프로필을 불러옵니다'},
       {name: 'embed2', desc: 'embed 예제2 (help)'},
       {name: '!전체공지', desc: 'dm으로 전체 공지 보내기'},
     ];
