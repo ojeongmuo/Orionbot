@@ -829,7 +829,7 @@ if(message.content == 'o!아나') {
       .setColor('#000000')
       .addField('```Name Mac```', '```fix\nFlick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/761870125883326474/786382256084090948/305f70cc06c398e5.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/788781334357082132/788782981308219402/1.png')
       message.channel.send(embed)
     }
 
@@ -853,7 +853,7 @@ if(message.content == 'o!아나') {
       .setColor('#000000')
       .addField('```Name MacCree```', '```fix\nFlick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/761870125883326474/786382256084090948/305f70cc06c398e5.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/788781334357082132/788782981308219402/1.png')
     message.channel.send(embed)
   }
 
@@ -876,7 +876,7 @@ if(message.content == 'o!아나') {
       .setColor('#000000')
       .addField('```Name MacCree```', '```fix\nFlick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/761870125883326474/786382256084090948/305f70cc06c398e5.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/788781334357082132/788782981308219402/1.png')
     message.channel.send(embed)
   }
 
@@ -887,7 +887,7 @@ if(message.content == 'o!아나') {
       .setColor('#000000')
       .addField('```Name MacCree```', '```fix\nFlick```', true)
       .setThumbnail(img)
-      .setImage('https://cdn.discordapp.com/attachments/761870125883326474/786382256084090948/305f70cc06c398e5.PNG')
+      .setImage('https://cdn.discordapp.com/attachments/788781334357082132/788782981308219402/1.png')
     message.channel.send(embed)
   }
 
