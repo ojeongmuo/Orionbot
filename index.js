@@ -373,6 +373,7 @@ if(message.content == 'o!Reaper') {
     message.channel.send(embed)
   }
 
+
  if(message.content == 'o!Widow') {
     let img = 'https://cdn.discordapp.com/attachments/755582268684107837/757756122412220536/or.gif';
     let embed = new Discord.RichEmbed()
@@ -388,6 +389,33 @@ if(message.content == 'o!Reaper') {
 
 
   if(message.content == 'o!Widow') {
+    let img = 'https://cdn.discordapp.com/attachments/755582268684107837/757756122412220536/or.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#000000')
+   
+      .addField('```Name Widow```', '```fix\nSilent Shot```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756202997545042062/f8651bb8d3161100.PNG')
+ 
+    message.channel.send(embed)
+  }
+
+ if(message.content == 'o!widow') {
+    let img = 'https://cdn.discordapp.com/attachments/755582268684107837/757756122412220536/or.gif';
+    let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#000000')
+
+      .addField('```Name Widow```', '```fix\nFlick```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756202639376646355/1a3bb2f54b11d621.PNG')
+  
+    message.channel.send(embed)
+  }
+
+
+  if(message.content == 'o!widow') {
     let img = 'https://cdn.discordapp.com/attachments/755582268684107837/757756122412220536/or.gif';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
@@ -577,7 +605,7 @@ if(message.content == 'o!Ash') {
   }
   
 
-  if(message.content == 'o!Ash') {
+  if(message.content == 'o!Ashe') {
     let img = 'https://cdn.discordapp.com/attachments/755582268684107837/757756122412220536/or.gif';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
@@ -590,7 +618,7 @@ if(message.content == 'o!Ash') {
     message.channel.send(embed)
   }
 
-  if(message.content == 'o!ash') {
+  if(message.content == 'o!ashe') {
     let img = 'https://cdn.discordapp.com/attachments/755582268684107837/757756122412220536/or.gif';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
@@ -1132,7 +1160,7 @@ if(message.content == 'o!ana') {
     message.channel.send(embed)
   }
 
-  if(message.content == 'o!Maccree') {
+  if(message.content == 'o!Mcree') {
     let img = 'https://cdn.discordapp.com/attachments/755582268684107837/757756122412220536/or.gif';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
@@ -1143,7 +1171,7 @@ if(message.content == 'o!ana') {
     message.channel.send(embed)
   }
 
- if(message.content == 'o!maccree') {
+ if(message.content == 'o!mcree') {
     let img = 'https://cdn.discordapp.com/attachments/755582268684107837/757756122412220536/or.gif';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
@@ -1176,7 +1204,7 @@ if(message.content == 'o!ana') {
     message.channel.send(embed)
   }
 
-if(message.content == 'o!Maccree') {
+if(message.content == 'o!Mcree') {
     let img = 'https://cdn.discordapp.com/attachments/755582268684107837/757756122412220536/or.gif';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
@@ -1187,7 +1215,7 @@ if(message.content == 'o!Maccree') {
     message.channel.send(embed)
   }
 
-if(message.content == 'o!maccree') {
+if(message.content == 'o!mcree') {
     let img = 'https://cdn.discordapp.com/attachments/755582268684107837/757756122412220536/or.gif';
     let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
@@ -1272,7 +1300,7 @@ let embed = new Discord.RichEmbed()
       .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756207375559557150/f22c693aaa50146d.PNG')
     message.channel.send(embed)
   }
-  if(message.content == 'o!May') {
+  if(message.content == 'o!Mei') {
     let img = 'https://cdn.discordapp.com/attachments/755582268684107837/757756122412220536/or.gif';
 let embed = new Discord.RichEmbed()
       .setURL('http://www.naver.com')
@@ -1283,6 +1311,16 @@ let embed = new Discord.RichEmbed()
     message.channel.send(embed)
   }
 
+  if(message.content == 'o!mei') {
+    let img = 'https://cdn.discordapp.com/attachments/755582268684107837/757756122412220536/or.gif';
+let embed = new Discord.RichEmbed()
+      .setURL('http://www.naver.com')
+      .setColor('#000000')
+      .addField('```Name May```', '```fix\nTracking```', true)
+      .setThumbnail(img)
+      .setImage('https://cdn.discordapp.com/attachments/755758873335300320/756207375559557150/f22c693aaa50146d.PNG')
+    message.channel.send(embed)
+  }
 if(message.content == 'o!솔저') {
     let img = 'https://cdn.discordapp.com/attachments/755582268684107837/757756122412220536/or.gif';
     let embed = new Discord.RichEmbed()
